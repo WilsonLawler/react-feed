@@ -5,7 +5,7 @@ import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.hydrate(
-    <Router>
+    <Router basename="/react-feed">
         <App />
     </Router>,
     document.getElementById('root'));
